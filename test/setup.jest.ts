@@ -2,6 +2,9 @@
  * Copyright OpenSearch Contributors
  * SPDX-License-Identifier: Apache-2.0
  */
+
+import '@testing-library/jest-dom';
+
 // @ts-ignore
 window.Worker = function () {
   this.postMessage = () => {};
